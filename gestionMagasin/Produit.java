@@ -6,7 +6,7 @@ package gestionMagasin;
 
 /**
  *
- * @author rayan
+ * @author DJOUADI Rayane ING1 - BDML1
  */
 
 
@@ -66,4 +66,5 @@ public class Produit {
         System.out.println("Prix: " + this.prix + " €");
         System.out.println("Quantité en stock: " + this.quantite);
     }
+
 }
