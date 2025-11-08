@@ -5,7 +5,7 @@
 
 /**
  *
- * @author rayan
+ * @author DJOUADI Rayane ING1 - BDML1
  */
 
 package gestionMagasin;
@@ -56,4 +56,5 @@ public class Panier {
     public List<Produit> getProduits() {
         return this.produits;
     }
+
 }
