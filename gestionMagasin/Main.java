@@ -18,7 +18,7 @@ public class Main {
         magasin.ajouterProduit(new Produit(4, "Ecran 4K", 450.00, 8));
 
         // 2. Création du client et de son panier
-        Client client1 = new Client(101, "Jean Dupont", "jean.dupont@email.com");
+        Client client1 = new Client(101, "Rayane Djouadi", "rayane.djouadi@email.com");
         Panier panier = new Panier();
 
         // 3. Logique du menu interactif
@@ -27,13 +27,13 @@ public class Main {
         int idCommandeSuivante = 1;
 
         while (choix != 5) {
-            System.out.println("\n--- Menu Magasin ---"); // [cite: 100]
+            System.out.println("\n--- Menu Magasin ---"); 
             System.out.println("Client connecté: " + client1.getNom());
-            System.out.println("1. Afficher les produits disponibles"); // [cite: 101]
-            System.out.println("2. Ajouter un produit au panier"); // [cite: 102]
-            System.out.println("3. Afficher le panier"); // [cite: 103]
-            System.out.println("4. Passer la commande"); // [cite: 104]
-            System.out.println("5. Quitter"); // [cite: 105]
+            System.out.println("1. Afficher les produits disponibles"); 
+            System.out.println("2. Ajouter un produit au panier"); 
+            System.out.println("3. Afficher le panier"); 
+            System.out.println("4. Passer la commande"); 
+            System.out.println("5. Quitter"); 
             System.out.print("Votre choix: ");
 
             try {
@@ -86,3 +86,4 @@ public class Main {
         scanner.close();
     }
 }
+
