@@ -6,7 +6,7 @@
 
 /**
  *
- * @author rayan
+ * @author DJOUADI Rayane ING1 - BDML1
  */
 package gestionMagasin;
 
@@ -55,4 +55,5 @@ public class Client {
         System.out.println("Nom: " + this.nom);
         System.out.println("Email: " + this.email);
     }
+
 }
