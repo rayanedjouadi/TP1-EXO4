@@ -6,7 +6,7 @@
 
 /**
  *
- * @author rayan
+ * @author DJOUADI Rayane ING1 - BDML1
  */
 package gestionMagasin;
 
@@ -62,4 +62,5 @@ public class Commande {
     public double getTotal() {
         return total;
     }
+
 }
